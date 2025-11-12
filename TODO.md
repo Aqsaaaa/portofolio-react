@@ -1,0 +1,4 @@
+- [ ] Move all class declarations (CommonClass, MouseClass, AutoDriver, ShaderPass, Advection, ExternalForce, Viscous, Divergence, Poisson, Pressure, Simulation, Output, WebGLManager) outside the LiquidEther component, before the component function.
+- [ ] Ensure shader string constants are accessible (they can stay inside or be moved outside if needed).
+- [ ] Remove the class declarations from inside the useEffect hook.
+- [ ] Verify the file compiles without errors.
