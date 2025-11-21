@@ -12,7 +12,7 @@ export default function App() {
     <div className="relative min-h-screen w-full bg-black text-white overflow-hidden">
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0">
-          <LiquidEther
+          {/* <LiquidEther
               colors={['#0175C2', '#13B9FD', '#54E1F7']}
               mouseForce={20}
               cursorSize={100}
@@ -20,7 +20,7 @@ export default function App() {
               viscous={30}
               iterationsViscous={32}
               iterationsPoisson={32}
-              resolution={0.1}
+              resolution={0.3}
               isBounce={false}
               autoDemo={true}
               autoSpeed={0.5}
@@ -28,7 +28,7 @@ export default function App() {
               takeoverDuration={0.25}
               autoResumeDelay={3}
               autoRampDuration={0.6}
-            />
+            /> */}
         </div>
       </div>
       <div className="relative z-10">
